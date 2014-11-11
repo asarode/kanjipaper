@@ -1,0 +1,128 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #000354;
+	padding-top: 40px;
+	background-color: #fff;
+	transition: background-color 250ms ease-in-out;
+}
+
+a {
+	color: #000354;
+}
+
+a:hover {
+	color: #000354;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+}
+
+.content-main {
+	padding-bottom: 80px;
+}
+
+.icon-download {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+	position: relative;
+	top: 4px;
+	background-image: url("img/download-icon.svg")
+}
+
+.button-main {
+	display: inline-block;
+	padding: 20px;
+	background-color: #000354;
+	color: #FAFAFA;
+	border-radius: 8px;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+	transition: background-color 250ms ease-in-out;
+}
+
+.button-main:hover {
+	color: #FAFAFA;
+	background-color: #0006AB;
+}
+
+
+.card-wallpaper {
+	width: 250px;
+	margin-bottom: 40px;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+	border-radius: 8px;
+}
+
+.card-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 8px 8px 0 0;
+}
+
+.card-action {
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 0 0 8px 8px;
+}
+
+.card-action:hover {
+	cursor: hand;
+	cursor: pointer;
+}
+
+#card-monday .card-action {
+	background-color: #9CFED3;
+}
+
+#card-tuesday .card-action {
+	background-color: #FDB558;
+}
+
+#card-wednesday .card-action {
+	background-color: #ECECF9;
+}
+
+#card-thursday .card-action {
+	background-color: #C6FBCD;
+}
+
+#card-friday .card-action {
+	background-color: #FEE075;
+}
+
+#card-saturday .card-action {
+	background-color: #DE8C71;
+}
+
+#card-sunday .card-action {
+	background-color: #FEECB2;
+}
+
+footer {
+	padding: 40px 0;
+	background-color: #000354;
+	color: #fafafa;
+	text-align: center;
+}
+
+footer a {
+	color: #fafafa;
+	transition: color 250ms ease;
+}
+
+footer a:hover {
+	color: #fafafa;
+}
+
+@media screen and (max-width: 768px){
+	.card-wallpaper {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
