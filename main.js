@@ -7,4 +7,11 @@ $(document).ready( function() {
 		console.log(dayColor)
 	})
 
+	$(".card-wallpaper").hide()
 })
+
+$(window).load(function() {
+    $(".card-wallpaper").each(function(i) {
+       $(this).delay((i + 1) * 50).fadeIn();
+    });
+});

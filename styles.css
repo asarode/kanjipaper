@@ -2,12 +2,13 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: #000354;
 	padding-top: 40px;
-	background-color: #fff;
+	background-color: #FEECB2;
 	transition: background-color 250ms ease-in-out;
 }
 
 a {
 	color: #000354;
+	outline: none !important;
 }
 
 a:hover {
@@ -56,8 +57,8 @@ h1 {
 	margin-bottom: 40px;
 	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
 	border-radius: 8px;
-}
 
+}
 .card-image {
 	width: 250px;
 	height: 250px;
@@ -85,7 +86,7 @@ h1 {
 }
 
 #card-wednesday .card-action {
-	background-color: #ECECF9;
+	background-color: #A1DCFF;
 }
 
 #card-thursday .card-action {
@@ -105,14 +106,16 @@ h1 {
 }
 
 footer {
-	padding: 40px 0;
+	padding: 8px 0;
 	background-color: #000354;
 	color: #fafafa;
 	text-align: center;
+	position: fixed !important;
+	bottom: 0;
 }
 
 footer a {
-	color: #fafafa;
+	color: #FEECB2;
 	transition: color 250ms ease;
 }
 
